@@ -32,12 +32,8 @@ pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -
 
 Finally, install the latest version of STAIR-tools via pip:
 
-```python
+```
    pip install STAIR-tools
 ```
-STAIR can be used in python:
 
-```python
-   import STAIR
-```
 ## Tutorial
