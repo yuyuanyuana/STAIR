@@ -26,7 +26,7 @@ Confirm that the installed PyTorch version is correct:
 11.3
 ```
 Then, install the corresponding PyG and its related packages:
-```
+```bash
 pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-1.12.1+cu113.html
 ```
 
