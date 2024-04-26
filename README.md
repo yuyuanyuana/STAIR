@@ -1,6 +1,6 @@
-# STAIR: Spatial Transcriptomic Alignment, Integration, and de novo 3D Reconstruction.
+# STAIR: Spatial Transcriptomic Alignment, Integration, and _de novo_ 3D Reconstruction.
 
-STAIR is a deep learning-based algorithm for Spatial Transcriptomic Alignment, Integration, and de novo 3D Reconstruction. STAIR utilizes heterogeneous graph attention network with spot-level and slice-level attention mechanisms to learn and integrate spatial features and obtain consistent spatial region divisions across slices. These results are then used to completes the 2D alignment. Unlike previous methods relying on known slice distance or known 3D coordinates, STAIR requires only ST data as input and infers the relative positioning of slices along z-axis in a completely unsupervised manner. In addition, STAIR seamlessly integrates new slices into the existing 3D atlas, effectively expanding the reference 3D atlas. 
+STAIR is a deep learning-based algorithm for Spatial Transcriptomic Alignment, Integration, and _de novo_ 3D Reconstruction. STAIR utilizes heterogeneous graph attention network with spot-level and slice-level attention mechanisms to learn and integrate spatial features and obtain consistent spatial region divisions across slices. These results are then used to completes the 2D alignment. Unlike previous methods relying on known slice distance or known 3D coordinates, STAIR requires only ST data as input and infers the relative positioning of slices along z-axis in a completely unsupervised manner. In addition, STAIR seamlessly integrates new slices into the existing 3D atlas, effectively expanding the reference 3D atlas. 
 
 
 ## Installation
