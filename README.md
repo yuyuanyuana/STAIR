@@ -47,7 +47,7 @@ conda install bioconda::r-lisi
 
 
 ## Tutorial
-You can use STAIR-tools to analyse your own data following the [tutorial](https://stair-tutorial.readthedocs.io/en/latest/STAIR-Tutorial.html).
+For the specific usage of STAIR, please refer to [tutorial](https://stair-tutorial.readthedocs.io/en/latest/STAIR-Tutorial.html).
 
 ## Reference
 
