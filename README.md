@@ -47,7 +47,7 @@ conda install bioconda::r-lisi
 
 
 ## Tutorial
-For the specific usage of STAIR, please refer to [tutorial](https://stair-tutorial.readthedocs.io/en/latest/STAIR-Tutorial.html).
+For the specific usage of STAIR, please refer to the [Tutorial](https://stair-tutorial.readthedocs.io/en/latest/STAIR-Tutorial.html).
 
 ## Reference
 
