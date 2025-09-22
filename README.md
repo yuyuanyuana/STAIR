@@ -26,7 +26,7 @@ pip install torch_geometric
 Finally, install the latest version of STAIR-tools via pip:
 
 ```bash
-pip install https://github.com/yuyuanyuana/STAIR/releases/tag/v1.3.1
+pip install https://github.com/yuyuanyuana/STAIR/releases/download/1.3.1/STAIR_tools-1.3.1-py3-none-any.whl 
 ```
 
 ## Tutorial
