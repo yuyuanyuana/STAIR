@@ -1,0 +1,70 @@
+id,acronym,name,color_hex_triplet,parent_structure_id,ABA_level,CASTLE_level,CASTLE_parent
+519,CBN,Cerebellar nuclei,#FFFDBC,512.0,3,2,512.0
+528,CBX,Cerebellar cortex,#FFFC91,512.0,3,2,512.0
+339,MBsen,"Midbrain, sensory related",#FF7AFF,313.0,4,2,313.0
+348,MBsta,"Midbrain, behavioral state related",#FFA6FF,313.0,4,2,313.0
+323,MBmot,"Midbrain, motor related",#FF90FF,313.0,4,2,313.0
+290,LZ,Hypothalamic lateral zone,#F2483B,1097.0,5,2,1097.0
+10671,ME,Median eminence,#ECE754,1097.0,5,2,1097.0
+467,MEZ,Hypothalamic medial zone,#FF4C3E,1097.0,5,2,1097.0
+141,PVR,Periventricular region,#FF5547,1097.0,5,2,1097.0
+157,PVZ,Periventricular zone,#FF5D50,1097.0,5,2,1097.0
+864,DORsm,"Thalamus, sensory-motor cortex related",#FF8084,549.0,5,2,549.0
+856,DORpm,"Thalamus, polymodal association cortex related",#FF909F,549.0,5,2,549.0
+507,MOB,Main olfactory bulb,#9AD2BD,698.0,6,2,698.0
+151,AOB,Accessory olfactory bulb,#9DF0D2,698.0,6,2,698.0
+814,DP,Dorsal peduncular area,#A4DAA4,698.0,6,2,698.0
+566,TR,Postpiriform transition area,#A8ECD3,698.0,6,2,698.0
+159,AON,Anterior olfactory nucleus,#54BF94,698.0,6,2,698.0
+788,PAA,Piriform-amygdalar area,#59DAAB,698.0,6,2,698.0
+631,COA,Cortical amygdalar area,#61E7B7,698.0,6,2,698.0
+589,TT,Taenia tecta,#62D09F,698.0,6,2,698.0
+961,PIR,Piriform area,#6ACBBA,698.0,6,2,698.0
+619,NLOT,Nucleus of the lateral olfactory tract,#95E4C8,698.0,6,2,698.0
+982,FC,Fasciola cinerea,#70FF71,1080.0,7,2,1089.0
+726,DG,Dentate gyrus,#66A83D,1080.0,7,2,1089.0
+375,CA,Ammon's horn,#7ED04B,1080.0,7,2,1089.0
+19,IG,Induseum griseum,#7F2E7E,1080.0,7,2,1089.0
+909,ENT,Entorhinal area,#32B825,822.0,7,2,1089.0
+484682508,APr,Area prostriata,#33B932,822.0,7,2,1089.0
+589508447,HATA,Hippocampo-amygdalar transition area,#4BB547,822.0,7,2,1089.0
+1037,POST,Postsubiculum,#48C83C,822.0,7,2,1089.0
+502,SUB,Subiculum,#4FC244,822.0,7,2,1089.0
+484682470,ProS,Prosubiculum,#58BA48,822.0,7,2,1089.0
+1084,PRE,Presubiculum,#59B947,822.0,7,2,1089.0
+843,PAR,Parasubiculum,#72D569,822.0,7,2,1089.0
+278,sAMY,Striatum-like amygdalar nuclei,#80C0E2,477.0,5,2,477.0
+493,STRv,Striatum ventral region,#80CDF8,477.0,5,2,477.0
+672,CP,Caudoputamen,#98D6F9,485.0,6,2,477.0
+275,LSX,Lateral septal complex,#90CBED,477.0,5,2,477.0
+818,PALd,"Pallidum, dorsal region",#8599CC,803.0,5,2,803.0
+826,PALm,"Pallidum, medial region",#96A7D3,803.0,5,2,803.0
+835,PALv,"Pallidum, ventral region",#A2B1D8,803.0,5,2,803.0
+809,PALc,"Pallidum, caudal region",#B3C0DF,803.0,5,2,803.0
+319,BMA,Basomedial amygdalar nucleus,#84EA81,703.0,5,2,703.0
+583,CLA,Claustrum,#8ADA87,703.0,5,2,703.0
+131,LA,Lateral amygdalar nucleus,#90EB8D,703.0,5,2,703.0
+780,PA,Posterior amygdalar nucleus,#97EC93,703.0,5,2,703.0
+295,BLA,Basolateral amygdalar nucleus,#9DE79C,703.0,5,2,703.0
+942,EP,Endopiriform nucleus,#A0EE9D,703.0,5,2,703.0
+354,MY,Medulla,#FF9BCD,935.0,5,2,1065.0
+771,P,Pons,#FF9B88,883.0,5,2,1065.0
+1057,GU,Gustatory areas,#009C75,315.0,6,2,315.0
+22,PTLp,Posterior parietal association areas,#009FAC,315.0,6,2,315.0
+247,AUD,Auditory areas,#019399,315.0,6,2,315.0
+669,VIS,Visual areas,#08858C,315.0,6,2,315.0
+895,ECT,Ectorhinal area,#0D9F91,315.0,6,2,315.0
+922,PERI,Perirhinal area,#0E9684,315.0,6,2,315.0
+677,VISC,Visceral area,#11AD83,315.0,6,2,315.0
+541,TEa,Temporal association areas,#15B0B3,315.0,6,2,315.0
+453,SS,Somatosensory areas,#188064,315.0,6,2,315.0
+254,RSP,Retrosplenial area,#1AA698,315.0,6,2,315.0
+500,MO,Somatomotor areas,#1F9D5A,315.0,6,2,315.0
+95,AI,Agranular insular area,#219866,315.0,6,2,315.0
+714,ORB,Orbital area,#248A5E,315.0,6,2,315.0
+184,FRP,"Frontal pole, cerebral cortex",#268F45,315.0,6,2,315.0
+972,PL,Prelimbic area,#2FA850,315.0,6,2,315.0
+31,ACA,Anterior cingulate area,#40A666,315.0,6,2,315.0
+44,ILA,Infralimbic area,#59B363,315.0,6,2,315.0
+73,VS,ventricular systems,#AAAAAA,997.0,1,2,73.0
+1009,fiber tracts,fiber tracts,#CCCCCC,997.0,1,2,1009.0

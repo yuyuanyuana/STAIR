@@ -1,0 +1,33 @@
+name: STAIR-env
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - pip=25.2=pyh8b19718_0
+  - python=3.10.18=hd6af730_0_cpython
+  - r=4.4=r44hd8ed1ab_1008
+  - r-base=4.4.3=h85845a0_2
+  - rpy2=3.6.2=py310r44h8d87f43_0
+  - pip:
+    - anndata==0.11.4
+    - h5py==3.14.0
+    - idna==3.10
+    - matplotlib==3.10.5
+    - networkx==3.4.2
+    - numba==0.61.2
+    - numpy==1.26.0
+    - pandas==2.3.1
+    - patsy==1.0.1
+    - plotly==6.3.0
+    - psutil==7.0.0
+    - rpy2-rinterface==3.6.2
+    - rpy2-robjects==3.6.1
+    - scanpy==1.11.4
+    - scikit-learn==1.7.1
+    - scipy==1.15.3
+    - seaborn==0.13.2
+    - tqdm==4.67.1
+    - typing-extensions==4.14.1
+    - tzdata==2025.2
+    - umap-learn==0.5.9.post2
