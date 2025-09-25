@@ -8,7 +8,7 @@ STAIR is a deep learning-based algorithm for Spatial Transcriptomic Alignment, I
 First, create and activate a virtual environment named STAIR-env:
 
 ```bash
-conda env create -f environment.yml
+conda env create -f environment.yaml
 conda activate STAIR-env
 ```
 Then, install the appropriate versions of PyTorch and PyG for your device. We will follow the [PyG tutorial](https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html) and use CUDA 11.7 as an example:
