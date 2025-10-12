@@ -21,7 +21,7 @@ conda env create -f environment-python3.12.yaml
 conda activate STAIR-env
 ```
 
-1. Install PyTorch
+### 1. Install PyTorch
 
 For CUDA 12.4 (Python 3.12):
 ```bash
@@ -31,7 +31,7 @@ For CUDA 11.7 (Python 3.10):
 ```bash
 pip install torch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu117
 ```
-2. Install PyTorch Geometric (PyG)
+### 2. Install PyTorch Geometric (PyG)
 
 For CUDA 12.4 (Torch 2.6.0):
 ```bash
@@ -44,7 +44,7 @@ pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -
 pip install torch_geometric
 ```
 
-3. Install STAIR-tools
+### 3. Install STAIR-tools
 Finally, install the latest version of STAIR-tools via pip:
 
 ```bash
