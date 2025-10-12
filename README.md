@@ -5,24 +5,42 @@ STAIR is a deep learning-based algorithm for Spatial Transcriptomic Alignment, I
 
 ## Installation
 
-First, create and activate a virtual environment named STAIR-env:
+We provide two ready-to-use conda environment configuration files for different Python and CUDA versions:
+	•	Python 3.10 + CUDA 11.7: environment-python3.10.yaml
+	•	Python 3.12 + CUDA 12.4: environment-python3.12.yaml
+You can create and activate the desired environment as follows:
 
 ```bash
-conda env create -f environment.yaml
+# Example: using Python 3.10 + CUDA 11.7
+# conda env create -f environment-python3.10.yaml
+
+# Example: using Python 3.12 + CUDA 12.4
+conda env create -f environment-python3.12.yaml
 conda activate STAIR-env
 ```
-Then, install the appropriate versions of PyTorch and PyG for your device. We will follow the [PyG tutorial](https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html) and use CUDA 11.7 as an example:
 
+1. Install PyTorch
+For CUDA 12.4 (Python 3.12):
 ```bash
-pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu117
+pip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cu124
 ```
-
-Next, install the corresponding PyG and its related packages:
+For CUDA 11.7 (Python 3.10):
+```bash
+pip install torch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu117
+```
+2. Install PyTorch Geometric (PyG)
+For CUDA 12.4 (Torch 2.6.0):
+```bash
+pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.6.0+cu124.html
+pip install torch_geometric
+```
+For CUDA 11.7 (Torch 1.13.1):
 ```bash
 pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-1.13.1+cu117.html
 pip install torch_geometric
 ```
 
+3. Install STAIR-tools
 Finally, install the latest version of STAIR-tools via pip:
 
 ```bash
