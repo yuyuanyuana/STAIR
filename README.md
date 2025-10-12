@@ -6,8 +6,10 @@ STAIR is a deep learning-based algorithm for Spatial Transcriptomic Alignment, I
 ## Installation
 
 We provide two ready-to-use conda environment configuration files for different Python and CUDA versions:
+
 	•	Python 3.10 + CUDA 11.7: environment-python3.10.yaml
 	•	Python 3.12 + CUDA 12.4: environment-python3.12.yaml
+
 You can create and activate the desired environment as follows:
 
 ```bash
@@ -20,6 +22,7 @@ conda activate STAIR-env
 ```
 
 1. Install PyTorch
+
 For CUDA 12.4 (Python 3.12):
 ```bash
 pip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cu124
@@ -29,6 +32,7 @@ For CUDA 11.7 (Python 3.10):
 pip install torch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu117
 ```
 2. Install PyTorch Geometric (PyG)
+
 For CUDA 12.4 (Torch 2.6.0):
 ```bash
 pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.6.0+cu124.html
