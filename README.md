@@ -59,3 +59,8 @@ For the specific usage of STAIR, please refer to the [Tutorial](https://stair-tu
 If you use STAIR-tools in your work, please cite:
 
 Yuanyuan Yu, Zhi Xie. Spatial Transcriptomic Alignment, Integration, and 3D Reconstruction by STAIR, 08 February 2024, PREPRINT (Version 1) available at Research Square [https://doi.org/10.21203/rs.3.rs-3939678/v1]
+
+## License
+
+This project is released under the MIT License. See the `LICENSE` file for details.
+
