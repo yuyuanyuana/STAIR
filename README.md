@@ -52,13 +52,14 @@ pip install https://github.com/yuyuanyuana/STAIR/releases/download/1.3.1/STAIR_t
 ```
 
 ## Tutorial
+
 For the specific usage of STAIR, please refer to the [Tutorial](https://stair-tutorial.readthedocs.io/en/latest/STAIR-Tutorial.html). The datasets in the tutorial can be downloaded from [zenodo](https://zenodo.org/records/11084262).
 
-## Reference
+## Citation
 
 If you use STAIR-tools in your work, please cite:
 
-Yuanyuan Yu, Zhi Xie. Spatial Transcriptomic Alignment, Integration, and 3D Reconstruction by STAIR, 08 February 2024, PREPRINT (Version 1) available at Research Square [https://doi.org/10.21203/rs.3.rs-3939678/v1]
+Yu, Y., Xie, Z. Spatial transcriptomic alignment, integration, and 3D reconstruction by STAIR. Genome Biol 26, 427 (2025). https://doi.org/10.1186/s13059-025-03895-x
 
 ## License
 
